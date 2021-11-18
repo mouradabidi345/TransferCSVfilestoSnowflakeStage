@@ -59,11 +59,11 @@ df7.to_csv (r"Z:\Shared\Public\BI_Test\InsightArticles.csv",
 
 
 ctx = snowflake.connector.connect(
-          user='SF_RAW_STAGE_SERVICE',
-          password='Zg5XZ!mm%PvA',
-          account='ba62849.east-us-2.azure',
-          warehouse= 'COMPUTE_MACHINE',
-          database='DB_ASEA_REPORTS',
+          user='',
+          password='',
+          account='',
+          warehouse= '',
+          database='',
           schema='PUBLIC')   
 
 
